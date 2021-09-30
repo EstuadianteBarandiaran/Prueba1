@@ -1,0 +1,92 @@
+body {
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	background: url(https://image.freepik.com/foto-gratis/fondo-plateado-metalizado-texturado_53876-90845.jpg);
+}
+/*Body se uso para el estilo que se creo para la parte de fondo general haceindo en azul y con un margen*/
+a{
+	color: #f70000;
+/*Crea un color para el enlace que se unio*/
+}
+a:visited{
+	color: #7B18A7;
+/*Crea un color si lo va a visitar el link*/
+}
+a:hover{
+	color: #0008f7;
+/*Crea un color si ya visito el link*/
+}
+table {
+	border-collapse
+	border:2px solid white;
+	table-layout:fixed;
+	width:100%
+/*agrega el estilo de la tablla con un borde tipo de colapse y puo el borde en morado*/
+}
+td {
+	padding: 5px;
+	border:1px solid white;
+/*diseña la celda general de informacino y pone un borde e morado*/
+}
+th {
+	color:white;
+	background-color:gray;
+	padding:5px;
+/*agrega una celda como encabezado y le pone estilo con color morado de fondo y blanco de letras*/
+}
+tr{
+	height:45px;
+/*define en este estilo la fila de celdas y su tamaño*/
+}
+.titulo {
+	font-family: cambría, "Hofler Text", "Times New Roman", serif;
+	font-size: 20px;
+	line-height: 20px;
+	background-color: #696969;
+	color: ##fafafa;
+	text-align: center;
+	font-style: normal;
+/*Definio el titulo de tabla como estilo poniendo un fondo morado fuerte,centradas las letras y con las letras en amarillo y poniendo una tipografia dif. a a general */
+}
+.subtitulo1 {
+	font-family:"Lucida Grande", "Lucida sans unicode", verdana;
+	font-size:17px;
+	line-height: 20px;
+	color: #000000;
+	font-style: normal;
+	text-align: center;
+/*Creo este estilo con letra con color morado,un fondo normal,letra lucida grande y el texto de forma centrada*/
+}
+.normal {
+	font-family:cambría, "Hoefler Text", "Liberation Serif", Times;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #000000;
+	font-style: normal;
+	text-align: justify;
+/*Creo este estilo con letra con color morado,un fondo normal,letra lucida grande y el texto de forma por default*/
+}
+.derecha {
+	font-family:cambría, "Hoefler Text", "Liberation Serif", Times;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #000000;
+	font-style: normal;
+	text-align:right;
+/*Creo este estilo con letra con color morado,un fondo normal,letra lucida grande y el texto de forma por default*/
+}
+.estilo24 {
+	font-size: 24pt;
+	color: #000000;
+/*Creo este estilo con letra con color morado,y un tamaño de letra de 24 */
+}
+.estiloPieTabla {
+	font-size: 8pt;
+	color: #FFFFFF;
+	text-align: center;
+/*Creo este estilo con letra con color naranja,un fondo normal, y con la letra centrada*/
+}
